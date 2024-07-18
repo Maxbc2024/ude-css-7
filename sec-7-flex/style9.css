@@ -1,0 +1,100 @@
+/* 
+.lineaborde_a {
+    border: 1px solid red; 
+}
+
+.lineaborde_b {
+    border: 1px solid blue;
+}
+
+.lineaborde_C {
+    border: 1px solid olivedrab;
+}
+
+.lineaborde_d {
+    border: 1px solid rgb(212, 0, 255);
+}    */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+:root {
+    font-size: 10px;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/* --------------------------------------------- */
+
+header {
+    margin: 2rem;
+    background-color: #827397;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    /* centra Y */
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    /* ver */
+    flex-basis: 30%;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+
+      /* 
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+    */
+    /* flex: 1 1 0%; */
+}
+
+input {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: #e9d5da;
+    font-size: 2rem;
+}
+
+ /* ------------------------  <= 800px  ----------------------- */
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-wrap: wrap;
+    }
+    nav {
+        /* cambia  de orden entre nav e imput */
+        order: 1;
+        /* flex: 100%; */
+        /* flex-basis: 100%; */
+    }
+}
