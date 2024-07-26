@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="general-styles.css" />
+    <link rel="stylesheet" href="1-checkout-parte-2.css" />
+
+
+    <title>Checkout Page</title>
+  </head>
+  <body>
+
+    <main class="checkout">
+      <!-- ------------- BILLING ------------------------------ -->
+
+      <section class="checkout__billing">
+        <h2 class="checkout__billing--title">Checkout</h2>
+        <p class="checkout__billing--para">There are 3 products in your cart</p>
+        <!-- FORM ------------------------------ -->
+        <form class="checkout__billing--form">
+          <h3 class="checkout__billing--form__title">Billing Details</h3>
+
+          <fieldset class="checkout__billing--form__name">
+            <input type="text" placeholder="First Name*" />
+            <input type="text" placeholder="Last Name*" />
+          </fieldset>
+
+          <fieldset class="checkout__billing--form__address">
+            <input type="text" placeholder="Address*" />
+            <input type="text" placeholder="Address Line 2" />
+          </fieldset>
+
+          <fieldset class="checkout__billing--form__country">
+            <select name="country" id="country">
+              <option>Country*</option>
+              <option>Australia</option>
+              <option>Germany</option>
+              <option>Sweden</option>
+              <option>Liechtenstein</option>
+            </select>
+
+            <input type="text" placeholder="City/Town" />
+          </fieldset>
+
+          <fieldset class="checkout__billing--form__zipcode">
+            <input type="text" placeholder="Postcode/Zip*" />
+            <input type="text" placeholder="Phone*" />
+          </fieldset>
+
+          <textarea
+            name="info"
+            id="info"
+            cols="30"
+            rows="10"
+            placeholder="Additional Information"
+          ></textarea>
+
+          <fieldset class="checkout__billing--form__account">
+            <label for="account">Create Account</label>
+            <input type="checkbox" />
+          </fieldset>
+
+          <fieldset class="checkout__billing--form__shipment">
+            <label for="shipment">Ship to a different address</label>
+            <input type="checkbox" />
+          </fieldset>
+
+          <fieldset class="checkout__billing--form__coupon">
+            <label for="coupon">Apply coupon to get discount</label>
+
+            <div>
+              <input type="text" placeholder="Coupon Code" />
+              <input type="submit" value="Apply Code" />
+            </div>
+          </fieldset>
+        </form>
+
+      </section>
+
+      
+
+    </main>
+
+
+  </body>
+</html>
