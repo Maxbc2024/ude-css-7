@@ -1,0 +1,151 @@
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+a,
+input[type="submit"] {
+    text-decoration: none;
+    color: #333;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+input,
+textarea,
+fieldset,
+select {
+    border: none;
+    background: none;
+    outline: none;
+
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+input,
+textarea,
+select {
+    border: 1px hsla(0, 0%, 40%, 0.4) solid;
+    padding: 1rem 2rem;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: rgb(172, 172, 172);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* -------------------------------------------------------- */
+
+.header {
+    display: flex;
+    gap: 2rem;
+
+    padding: 4rem;
+    height: 100vh;
+
+    position: relative;
+}
+
+.header__img img {
+    object-position: center 15%;
+}
+
+.header__content {
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header__content--title {
+    color: #fb5974;
+    line-height: 0.85;
+}
+
+.header__content--link {
+    background-color: #fb5974;
+    align-self: flex-start;
+    color: white;
+}
+
+.header__content > div:last-child {
+    position: absolute;
+    bottom: 3rem;
+    right: 10rem;
+
+    display: flex;
+}
+
+.header__content > div:last-child i {
+    color: #fb5974;
+    border: 1px solid #fb5974;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+  
