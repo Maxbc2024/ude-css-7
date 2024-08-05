@@ -107,6 +107,8 @@ img {
   padding: 4rem;
 }
 
+/* <!-- CONTENT -----------------> */
+
 .carousel__content {
   justify-self: center;
   text-align: center;
@@ -127,6 +129,8 @@ img {
 .carousel__content--desc span {
   display: block;
 }
+
+/* <!-- PRODUCTS -----------------> */
 
 .carousel__products {
   display: grid;
@@ -205,6 +209,8 @@ img {
   background-color: rgb(21, 158, 67);
 }
 
+/* <!-- NAV -----------------> */
+
 .carousel__nav {
   display: grid;
   grid-template-columns: repeat(2, min-content);
@@ -218,5 +224,7 @@ img {
   color: orange;
   cursor: pointer;
 }
+
+
 
 

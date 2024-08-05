@@ -111,7 +111,7 @@ img {
 }
 
 header figure{
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .header__img img {
@@ -121,7 +121,7 @@ header figure{
 /* CONTENT ---------------- */
 
 header section{
-    background-color: #fb5974;
+    /* background-color: #fb5974; */
 }
 
 .header__content {
@@ -144,6 +144,7 @@ header section{
 }
 
 .header__content > div:last-child {
+    /* ultimo div */
     position: absolute;
     bottom: 3rem;
     right: 10rem;

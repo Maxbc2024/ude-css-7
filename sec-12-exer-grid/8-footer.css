@@ -119,6 +119,8 @@ main {
   gap: 2rem;
 }
 
+/* <!-- CONTENT ----------------- --> */
+
 .footer__content {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr) 2fr;
@@ -181,6 +183,8 @@ main {
   color: #006e7f;
   border-radius: 50%;
 }
+
+/* <!-- META ----------------- --> */
 
 .footer__meta {
   display: grid;

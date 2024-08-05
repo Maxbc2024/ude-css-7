@@ -106,7 +106,9 @@ img {
   
     padding: 4rem;
   }
-  
+
+  /* <!-- TEAN CONTENT ----------------- --> */
+
   .team__content {
     display: flex;
     flex-direction: column;
@@ -119,6 +121,8 @@ img {
     color: rgb(5, 5, 205);
   }
   
+  /* <!-- TEAN MEMBERS----------------- --> */
+
   .team__members {
     display: flex;
     gap: 2rem;

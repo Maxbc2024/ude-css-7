@@ -119,6 +119,8 @@ img {
   padding-bottom: 2rem;
 }
 
+/* <!-- NAV 1------------------ --> */
+
 .nav__links {
   grid-column: 1 / 2;
 
@@ -142,6 +144,8 @@ img {
   align-items: center;
   gap: 2rem;
 }
+
+/* <!-- NAV 2------------------ --> */
 
 .nav__logo {
   color: white;

@@ -99,6 +99,7 @@ img {
 
 /* ----------------------------------------------------------------- */
 
+
 .header {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -107,6 +108,8 @@ img {
   padding: 4rem;
   height: 100vh;
 }
+
+/* <!-- SHOWCASE ---------------------------- --> */
 
 .header__showcase {
   background-image: linear-gradient(
@@ -169,6 +172,8 @@ img {
 .header__showcase--navigation div.active {
   transform: scale(1.75);
 }
+
+/* <!-- ASIDE ---------------------------- --> */
 
 .header__aside {
   background-image: url("images/5.2.jpg");

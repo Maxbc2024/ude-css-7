@@ -108,11 +108,15 @@ img {
     padding: 4rem;
   }
   
+  /* <!-- order sumary -----------------------> */
+
   .order__summary {
     display: flex;
     justify-content: space-between;
   }
   
+  /* <!-- order CONTENT -----------------------> */
+
   .order__content {
     background-color: rgb(225, 235, 238);
     padding: 4rem;
@@ -186,6 +190,10 @@ img {
     justify-content: space-between;
   }
   
+  
+  /* <!-- order PAYMENT -----------------------> */
+
+
   .order__payment {
     display: flex;
     justify-content: space-between;

@@ -112,6 +112,8 @@ main {
     flex-grow: 1;
 }
 
+/* <!-- ------------------------ FOOTER---------------------------- --> */
+
 .footer {
     background-color: #06283d;
     padding: 4rem;
@@ -121,6 +123,8 @@ main {
     gap: 4rem;
     color: white;
 }
+
+/* <!-- FOOTER CONTENT ---------------- --> */
 
 .footer__content {
     display: flex;
@@ -165,6 +169,8 @@ main {
     color: #06283d;
 }
 
+/* <!-- FOOTER AUTHOR ---------------- --> */
+
 .footer__author {
     display: flex;
     justify-content: space-between;
@@ -180,4 +186,6 @@ main {
     display: flex;
     gap: 1rem;
 }
+
+
   

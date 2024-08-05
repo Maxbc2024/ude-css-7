@@ -113,6 +113,8 @@ img {
   grid-row: 1 / 2;
 }
 
+/* <!-- CART ------------------------ --> */
+
 .cart__products {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
@@ -182,6 +184,8 @@ img {
   padding: 0.5rem;
   margin-top: 1rem;
 }
+
+/* <!-- CHECKOUT ------------------------ --> */
 
 .cart__checkout {
   grid-column: 2 / 3;

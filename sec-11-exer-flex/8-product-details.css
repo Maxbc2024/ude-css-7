@@ -109,6 +109,8 @@ img {
     padding: 4rem;
   }
   
+  /* <!-- PRODUCT IMAGEN -------------------------------> */
+
   .product__imgs {
     flex-basis: 40%;
   
@@ -139,6 +141,9 @@ img {
     gap: 2rem;
   }
   
+  /* <!-- PRODUCT DETAILS -------------------------------> */
+
+    
   .product__details {
     flex-basis: 30%;
   

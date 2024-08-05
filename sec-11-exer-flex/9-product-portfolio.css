@@ -106,8 +106,9 @@ img {
     padding: 4rem;
   }
   
-  .left,
-  .right {
+  /* LEFT ---------------------------- */
+
+  .left {
     flex-basis: 40%;
   
     display: flex;
@@ -129,7 +130,23 @@ img {
   .portfolio__content--para span {
     display: block;
   }
+
+  .portfolio__content {
+    display: flex;
+    flex-direction: column;
+  }
   
+  
+    /* RIGHT ---------------------------- */
+
+  .right {
+      flex-basis: 40%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+  }
+
   .portfolio__product--img {
     height: 40rem;
     margin-bottom: 2rem;
@@ -143,7 +160,6 @@ img {
     color: blue;
   }
   
-  .portfolio__content,
   .portfolio__product {
     display: flex;
     flex-direction: column;
