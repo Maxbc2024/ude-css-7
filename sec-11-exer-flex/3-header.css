@@ -110,8 +110,18 @@ img {
     position: relative;
 }
 
+header figure{
+    background-color: bisque;
+}
+
 .header__img img {
     object-position: center 15%;
+}
+
+/* CONTENT ---------------- */
+
+header section{
+    background-color: #fb5974;
 }
 
 .header__content {
