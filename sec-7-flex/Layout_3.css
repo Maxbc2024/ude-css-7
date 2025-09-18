@@ -1,0 +1,82 @@
+
+/* .lineaborde_a {
+    border: 1px solid red;
+}
+
+.lineaborde_b {
+    border: 1px solid blue;
+}
+
+.lineaborde_C {
+    border: 1px solid olivedrab;
+}
+
+.lineaborde_d {
+    border: 1px solid rgb(212, 0, 255);
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------------------------------------- */
+
+main{
+    /* border: 1px solid red; */
+
+    display: flex;
+    /* space-evenly	= Distribuye como space-around, pero con un 
+        espacio exactamente igual alrededor de ellos. */
+    justify-content: space-evenly;
+    
+
+    background-color: #f4d7d7;
+
+    padding: 2rem 4rem;
+    /* centrar truco*/
+    margin-top: 50vh; 
+    transform: translateY(-50%);
+
+    
+}
+
+main section{
+    /* border: 1px solid blue; */
+
+    
+
+    display: flex;
+    /* alinea Y */
+    align-items: center;
+    /* da espaciado entre los elementos  */
+    column-gap: 2rem;
+    
+}
+
+.profile-cards__card--img {
+    /* redondo */
+    border-radius: 50%;
+
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+}
+
+.profile-cards__card--info__name {
+    /* tamaño */
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.profile-cards__card--info__role {
+    font-size: 1.5rem;
+    color: rgba(0 0 0 / 0.5);
+}

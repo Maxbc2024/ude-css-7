@@ -1,0 +1,121 @@
+/* 
+ .lineaborde_a {
+    border: 1px solid red;
+}
+
+.lineaborde_b {
+    border: 1px solid blue;
+}
+
+.lineaborde_C {
+    border: 1px solid olivedrab;
+}
+
+.lineaborde_d {
+    border: 1px solid rgb(212, 0, 255);
+}  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+:root {
+    font-size: 10px;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/* ------------------------------------------------- */
+
+section{
+    /* border: 1px solid red; */
+    /* centrar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* x | y */
+    gap: 2rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;  
+    /* x | y */
+    gap: 2rem;
+
+    /* agranda el tamaño */
+    width: 30%;
+}
+
+form ul{
+    display: flex;
+    justify-content:space-between ;
+    gap: 1rem;
+}
+
+input {
+    /* border: none; */
+    /* background: none; */
+
+    /* quita el borde negrita cuando se hace foco al imput */
+    outline: none;
+
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: #6a67ce;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+li {
+    list-style: none;
+    /* tamaño de los 3 redes sociales  */
+    width: 33.33%;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+
+    text-align: center;
+
+}
+
+ul li:first-child {
+    background-color: #2155cd;
+}
+  
+ul li:nth-child(2) {
+    background-color: #79dae8;
+}
+  
+ul li:last-child {
+    background-color: #eb5353;
+}
+
+li a{
+    color: white;
+}
+
+a {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
