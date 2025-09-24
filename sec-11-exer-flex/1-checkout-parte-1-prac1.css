@@ -1,0 +1,155 @@
+
+
+.checkout {
+    /* background-color: chartreuse; */
+    
+    padding: 5rem;
+
+    display: flex;
+    /* Alineado X */
+    justify-content: center;
+    gap: 5rem;
+}
+
+/* <!-- ------------- ORDER ------------------------------ --> */
+
+.checkout__order{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+    row-gap: 3rem;
+    /* agranda el ancho  */
+    /* revisar */
+    flex-basis: 30%;
+    
+}
+
+/* ORDER DETAILS ------------------------------ --> */
+
+.checkout__order--details{
+    /* background-color: rosybrown; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+    border: 1px solid rgba(224 224 224 / 0.4);
+    border-radius: 1rem;
+}
+
+
+/* selecciona el div sigte del padre */
+.checkout__order--details > div {
+    /* background-color: teal; */
+    
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(224 224 224 / 0.4);
+}
+
+.checkout__order--details__name,
+.checkout__order--details__product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__order--details__name{
+    background-color: rgba(224 224 224 / 0.4);
+    padding: 1.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.checkout__order--details__product > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.checkout__order--details__product > div > div {
+    /* display: flex;
+    flex-direction: column;
+    gap: 0.5rem; */
+}
+
+
+.checkout__order--details__product > div > div > div {
+    display: flex;
+    gap: 2rem; 
+}
+
+/* imagenes */
+.checkout__order--details__product--img {
+    height: 8rem;
+    width: 8rem;
+}
+
+/* redondea la imagen */
+.checkout__order--details__product--img img {
+    border: 1px solid rgba(224 224 224 / 0.4);
+    border-radius: 50%;
+}
+
+
+.checkout__order--details__product--price {
+    /* EL PRECIO SE ALINEA CON LA IMAGEN */
+    align-self: center;
+}
+
+.checkout__order--details__cost {
+    /* background-color: aquamarine; */
+    /* PONE LOS PRECIOS EN COLUMNA Y ESPACIADO  */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.checkout__order--details__cost > div,
+.checkout__order--details__total {
+    /* PONE LOS PRECIOS A LOS LADOS  */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ORDER PAYMENT ------------------------------ --> */
+.checkout__order--payment {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+
+    /* row-gap column-gap */
+    gap: 2rem;
+}
+
+.checkout__order--payment__title {
+    background-color: rgba(224 224 224 / 0.4);
+    padding: 1.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.checkout__order--payment__form {
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.checkout__order--payment__form fieldset {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 1.5rem;
+
+}
+/*  ORDER BTN------------------------------ --> */
+
+.checkout__order--btn {
+    display: flex;
+}
+
+.checkout__order--btn input {
+    background-color: rgb(49, 139, 212);
+    border: none;
+    color: #fff;
+}
